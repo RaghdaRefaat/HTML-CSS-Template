@@ -1,0 +1,40 @@
+:root{
+    --lightGray: #f9f9f9;
+}
+
+
+.mg-bottom-5{
+    margin-bottom: 5px;
+}
+
+.mg-bottom-10{
+    margin-bottom: 10px;
+}
+
+.mg-bottom-15{
+    margin-bottom: 15px;
+}
+
+.mg-bottom-20{
+    margin-bottom: 20px;
+}
+
+.bg-gray{
+    background-color: var(--lightGray);
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.float-left{
+    float: left;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
