@@ -1,0 +1,66 @@
+/*3.0- Header Section */
+
+.header{
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo{
+    width: 40% ;
+}
+
+.logo img{
+    width: 20%;
+    margin-top: 15px;
+}
+
+.nav {
+    width: 60% ;
+    text-align: right;
+}
+
+.nav > li > a{
+    color : var(--whiteColor);
+    padding: 30px 10px;
+    font-size: 16px;
+}
+
+.nav > li > a:after, .nav li a.active:after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: var(--mainColor);
+    transition: width 0.7s;
+    margin-top: 2px;
+}
+
+.nav > li > a:after{
+    width: 0%;
+}
+
+.nav > li > a.active:after{
+    width: 100%;
+}
+
+.nav > li > a:hover:after{
+    width: 100%;
+}
+
+.dropdown-menu{
+    width: 100px;
+    background-color: var(--mainColor);
+    top: 70%;
+    left: -15%;
+    transition: opacity 0.5s ;
+}
+
+.dropDown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a{
+    color: var(--whiteColor);
+    padding: 10px;
+}

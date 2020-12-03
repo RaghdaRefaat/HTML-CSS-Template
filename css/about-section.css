@@ -1,0 +1,26 @@
+
+/*about section*/
+.about-item{
+    border: 1px solid var(--bgColor) ;
+    padding: 50px 20px ;
+}
+
+.icon{
+    color: var(--mainColor);
+}
+
+.about-item-title{
+    transition: color 0.5s;
+}
+
+.about-item-desc{
+    color: #8999;
+}
+
+.about-item-link{
+    color: var(--mainColor);
+}
+
+.about-item:hover .about-item-title{
+    color: var(--whiteColor);
+}

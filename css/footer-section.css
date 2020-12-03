@@ -1,0 +1,29 @@
+/*Footer Section*/
+.footer{
+    background-color: #1c1d21;
+    margin: 20px 0 ;
+    padding: 60px 0;
+}
+
+.footer-links li{
+    margin: 0 5px 15px 5px;
+    
+}
+
+.footer-links li a{
+    width: 50px;
+    height: 50px;
+    background-color: var(--mainColor);
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.footer-links li a i {
+    color: var(--whiteColor);
+    line-height: 50px;
+}
+
+.footer p{
+    color : var(--whiteColor);
+    font-size: 15px;
+}

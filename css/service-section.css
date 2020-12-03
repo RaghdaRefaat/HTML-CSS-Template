@@ -1,0 +1,21 @@
+/*Service Section*/
+
+.service-item-desc{
+    font-size: 17px;
+    padding-right: 20px;
+    color: var(--grayColor);
+    line-height: 1.4;
+}
+
+.service-list li{
+    color: var(--grayColor);
+}
+
+.service-list li i{
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    border-radius: 50%;
+}

@@ -8,11 +8,11 @@
 }
 
 .mg-bottom-10{
-    margin-bottom: 10px;
+    margin-bottom: 10;
 }
 
 .mg-bottom-15{
-    margin-bottom: 15px;
+    margin-bottom: 15;
 }
 
 .mg-bottom-20{
@@ -37,4 +37,49 @@
 
 .overflow-hidden{
     overflow: hidden;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.display-block{
+    display: block;
+}
+
+.display-inline-block{
+    display: inline-block;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.width-80{
+    width: 80%;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.width-30{
+    width: 30%;
+}
+
+.opacity-visibility{
+    opacity: 0;
+    visibility: hidden;
 }

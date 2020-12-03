@@ -1,0 +1,21 @@
+/*Numbers Section*/
+.numbers{
+    background-image: url(../images/background/background2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.number-item{
+    width: 25%;
+}
+
+.number-item-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--whiteColor);
+}
+
+.number-item-text{
+    color: var(--whiteColor);
+}

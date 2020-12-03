@@ -1,0 +1,31 @@
+/*blog page*/
+
+.blog-item{
+    background-color: var(--whiteColor);
+}
+
+.blog-info{
+    padding: 20px;
+}
+
+.blog-list{
+   margin: 5px 0;
+}
+
+.blog-list li{
+    margin: 0 5px;
+}
+
+.blog-title{
+    margin: 20px 0;
+}
+
+.blog-desc{
+    color: var(--grayColor);
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.blog-link{
+    color: var(--mainColor);
+}

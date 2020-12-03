@@ -1,0 +1,66 @@
+/*contact section*/
+
+.contact-item-desc{
+    color: var(--grayColor);
+}
+
+.combine{
+    display: inline-flex;
+    margin: 10 auto;
+
+}
+
+.contact-form{
+    margin: 25 auto;
+    padding: 150;
+}
+
+.contact-name{
+    margin-right: 10;
+    height: 30;
+    background-color: var(--bgColor);
+    padding: 10px;
+    border: none;
+}
+
+.contact-email{
+    height: 30;
+    padding: 10px;
+    background-color: var(--bgColor);
+    border: none;
+}
+
+.contact-subject{
+    height: 30;
+    padding: 10px;
+    background-color: var(--bgColor);
+    border: none;
+}
+
+.contact-msg{
+    height: 75;
+    padding: 10px;
+    background-color: var(--bgColor);
+    border: none;
+}
+
+.formEffect:hover{
+    border: 1px solid var(--mainColor) ;
+    box-shadow: 1px 2px var(--mainColor);
+}
+
+.contact-send{
+    margin-top: 110px;
+    border: none;
+    padding: 10 20;
+    border-radius: 5%;
+    color: var(--whiteColor);
+    background-color: var(--secondaryColor);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.contact-send:hover{
+    background-color: var(--mainColor);
+}
