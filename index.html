@@ -23,6 +23,9 @@
         <link rel="stylesheet" href="css/blog-section.css">
         <link rel="stylesheet" href="css/contact-section.css">
         <link rel="stylesheet" href="css/footer-section.css">
+        <script src="/__/firebase/8.2.4/firebase-app.js"></script>
+        <script src="/__/firebase/8.2.4/firebase-analytics.js"></script>
+        <script src="/__/firebase/init.js"></script>
 
     </head>
     <body>
@@ -332,7 +335,7 @@
 
         <!-- Testimonial Section -->
         <div class="testimonial position-relative">
-            <div class="overlay width-100 position-absolute>
+            <div class="overlay width-100 position-absolute">
                 <div class="container width-80 margin-auto">
                     <div class="testimonial-content width-80 margin-auto overflow-hidden">
                         <div class="testimonial-item width-50 float-left">
@@ -543,6 +546,28 @@
             </ul> <!-- ./footer-links -->
             <p class="uppercase">copyright &copy; 2019 . all rights reserved by colorlib</p>
         </div> <!-- ./footer -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
 
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+          var firebaseConfig = {
+            apiKey: "AIzaSyD9hl8WAa2ESg9ScSI-whJsC5vBFjfK7ak",
+            authDomain: "template-project-63592.firebaseapp.com",
+            projectId: "template-project-63592",
+            storageBucket: "template-project-63592.appspot.com",
+            messagingSenderId: "965027977513",
+            appId: "1:965027977513:web:0b859ace4d48024b947f38",
+            measurementId: "G-FWEC3E5Y2S"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
     </body>
 </html>
